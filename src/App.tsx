@@ -1,8 +1,14 @@
 import React from 'react';
-import './App.css';
+import ButtonGroup from './components/button-group/ButtonGroup';
+import List from './components/list/List';
 
-function App() {
-    return <div className='App'></div>;
-}
+const App: React.FC = () => {
+    return (
+        <div>
+            <ButtonGroup />
+            <List />
+        </div>
+    );
+};
 
 export default App;
